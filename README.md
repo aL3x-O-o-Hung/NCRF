@@ -2,11 +2,14 @@
 
 The official implementation of [A Neural Conditional Random Field Model Using Deep Features and Learnable Functions for End-to-End MRI Prostate Zonal Segmentation](https://www.melba-journal.org/pdf/2025:012.pdf). 
 
+The positional encoding, pairwise potentials encoder, and NCRF are implemented in NCRF_module.py, and the U-Net implementation of NCRF is in NCRF_network.py. 
+
+Please feel free to reach out if you have any questions.
 
 
 # Credits
 
-If you used this code in your research, please cite us at
+If you used this code or paper in your research, please kindly cite us at
 ```bash
 @article{hung2025neural,
   title={A Neural Conditional Random Field Model Using Deep Features and Learnable Functions for End-to-End MRI Prostate Zonal Segmentation},
